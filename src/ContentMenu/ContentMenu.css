@@ -1,0 +1,77 @@
+.ContentMenuContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    font-family: 'SourceCodePro';
+}
+
+.MenuOptions{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    font-family: 'SourceCodePro';
+    position: fixed;
+    background-color: rgb(255, 253, 231, 0.8);
+    z-index: 2;
+    top: 20%;
+    left: 0;
+    width: 100vw;
+    height: 80%;
+}
+
+.ArtistsContainer{
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: flex-end;
+    width: 33%;
+    height: auto;
+}
+
+.TitleArtists {
+    display: inherit;
+    margin-top: 10%;
+}
+.TitleArtists:hover{
+    text-shadow: 2px 2px 3px pink;
+}
+
+.ReleasesContainer{
+    display: inherit;
+    justify-content: center;
+    width: 33%;
+    font-size: 1.5rem;
+    height: auto;
+}
+
+.TitleReleases{
+    display: inherit;
+    margin-top: 10%;
+}
+
+.AboutContainer{
+    display: inherit;
+    justify-content: flex-start;
+    width: 33%;
+    font-size: 1.5rem;
+    height: auto;
+}
+
+.TitleAbout{
+    display: inherit;
+    margin-top: 10%;
+}
+
+.ArtistsListContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'SourceCodePro';
+    position: fixed;
+    background-color: rgb(255, 253, 231, 0.8);
+    z-index: 2;
+    top: 30%;
+    left: 0;
+    width: 100vw;
+    height: 80%;
+}

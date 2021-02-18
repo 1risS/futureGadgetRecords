@@ -1,0 +1,19 @@
+.NavDrawerContainer {
+    display: flex;
+    flex-direction: row;
+    /* border-right: 2px solid rgb(99, 99, 99); */
+    box-shadow: 1px 0px 20px rgb(182, 181, 181);
+    width: 100vw;
+    height: 20%;
+    justify-content: center;
+    align-items: center;
+}
+
+.LogoContainer{
+    display: inherit;
+    align-self: center;
+}
+
+.logo{
+    height:100px;
+}

@@ -1,0 +1,53 @@
+.HomeReleaseContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    font-family: 'SourceCodePro';
+    flex-grow: 1;
+    background-color: rgb(255, 253, 231);
+}
+
+.ReleaseDescriptionContainer {
+    flex-direction: column;
+    align-items: flex-start;
+    max-width: 50%;
+}
+
+.ReleaseTitle{
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.Artist{
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.ReleaseDescription{
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.ReleasePicContainer{
+    /* align-items: flex-start;
+    margin: 10%; */
+    background-image: url("../images/CNDSD.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 30px;
+    height: 50%;
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ReleasePic {
+    border-radius: 50%;
+}
+
+.PreviewContainer{
+
+}
