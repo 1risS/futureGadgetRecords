@@ -9,13 +9,13 @@ function ContentMenu(props){
     const contentVisibleRef = useRef(contentVisible);
     contentVisibleRef.current = contentVisible;
 
-    function onClick() {
-        if (expanded === false) {
-        setExpanded(true);
-        } else {
-        setExpanded(false);
-        }
-    }
+    // function onClick() {
+    //     if (expanded === false) {
+    //     setExpanded(true);
+    //     } else {
+    //     setExpanded(false);
+    //     }
+    // }
 
     function onMouseEnter() {
         setExpanded(true);

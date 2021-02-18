@@ -25,6 +25,7 @@ export default class Soundcloud extends Component {
 
     return (
       <iframe 
+        title="livecoding"
         width={ width } 
         height={ visual ? height : "auto" } 
         scrolling="no" 
